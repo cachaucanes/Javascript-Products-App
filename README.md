@@ -1,5 +1,5 @@
 # Javascript-Products-App
-Aplicación básica en javascript, bootstrap 4 y html5, para el registro y lista de productos en memoria virtual.
+Basic application in javascript, bootstrap 4 and html5, for the registration and list of products in virtual memory.
 
 ## Live Demo
 You can visit the live version of the app here:
@@ -14,6 +14,6 @@ You can visit the live version of the app here:
 ## Features
 
 1.  **Product Listing**: Displays all available products.
-2.  **product registration**: Add products.
+2.  **Product registration**: Add products.
 
 ![image](https://user-images.githubusercontent.com/29615549/62580606-319f1a00-b86c-11e9-8c90-8bbb2dc188f7.png)
