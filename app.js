@@ -13,11 +13,13 @@ class UI {
     const element = document.createElement('div');
     element.innerHTML = `
       <div class="card text-center mb-4">
-        <div class="card-body">
-          <strong>Product</strong>: ${product.name}
-          <strong>Product precio</strong>: ${product.price}
-          <strong>Product year</strong>: ${product.year}
-          <a href="#" name="delete" class="btn btn-danger">Delete</a>
+        <div class="card-body d-flex align-items-center justify-content-around">
+          <div class="text-left d-flex flex-column">
+            <span><strong>Product name</strong>: ${product.name}</span>
+            <span><strong>Price</strong>: ${product.price}</span>
+            <span><strong>Year</strong>: ${product.year}</span>
+          </div>
+            <a href="#" name="delete" class="btn btn-danger">Delete</a>
         </div>
       </div>
     `;
